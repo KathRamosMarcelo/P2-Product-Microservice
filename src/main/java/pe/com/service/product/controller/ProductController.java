@@ -25,7 +25,7 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/product")
 public class ProductController {
 	//@Autowired
-		private final ProductServiceImpl productServiceImpl;
+		private  ProductServiceImpl productServiceImpl;
 		
 		@PostMapping
 		@ResponseStatus(HttpStatus.CREATED)
